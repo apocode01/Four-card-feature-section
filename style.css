@@ -5,8 +5,10 @@
     --cyan: hsl(180, 62%, 55%);
     --orange: hsl(34, 97%, 64%);
     --blue: hsl(212, 86%, 64%);
+    --grey100: hsl(0, 0%, 98%);
     --grey500: hsl(234, 12%, 34%);
     --grey400: hsl(212, 6%, 44%);
+    --white: hsl(0, 0%, 100%);
     --white: hsl(0, 0%, 100%);
 }
 
@@ -25,6 +27,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     padding: 1.25rem;
+    background-color: var(--grey100);
 }
 
 .wrapper {
@@ -59,8 +62,8 @@ img {
     justify-self: end;
     align-self: end;
     position: absolute;
-    bottom: 2rem;;
-    right: 1.25rem;;
+    bottom: 2rem;
+    right: 1.25rem;
 }
 
 .features {
@@ -79,6 +82,7 @@ img {
     border-radius: 0.3rem;
     box-shadow: 0 4px 6px -2px var(--cyan);
     border-top: solid 0.3rem;
+    background-color: var(--white);
 }
 
 .box h3 {
